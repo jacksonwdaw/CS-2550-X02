@@ -29,6 +29,15 @@ header {
     cursor: pointer; 
 }
 
+tbody tr:nth-child(odd) {
+    background-color: #92dd6f; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #69974a;
+}
+
+
 .modal {
     display: none; 
     position: fixed; 
