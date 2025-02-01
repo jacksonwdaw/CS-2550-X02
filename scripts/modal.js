@@ -1,5 +1,5 @@
 var modal = document.getElementById("myModal");
-var img = document.getElementById("Jackson Photo.jpg");
+var img = document.getElementById("portrait");
 var modalImg = document.getElementById("modalImg");
 var closeBtn = document.getElementById("closeBtn");
 
