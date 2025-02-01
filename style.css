@@ -115,13 +115,6 @@ th {
     width: 120px;
 }
 
-/* Styling for the background of the page */
-body {
-    background-image: url('background-image.jpg'); /* Replace with an actual background image */
-    background-size: cover;
-    background-position: center;
-}
-
 /* Adjustments to paragraph spacing */
 p {
     text-indent: 0.5em;
