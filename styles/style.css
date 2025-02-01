@@ -12,6 +12,11 @@ header {
     margin-bottom: 20px;
 }
 
+.CS-2370 {
+    background-color: #84bd5f;
+    border: 1px solid #84bd5f;
+}
+
 .portrait {
     width: 300px;
     height: auto;
