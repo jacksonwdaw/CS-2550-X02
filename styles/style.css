@@ -13,8 +13,13 @@ header {
 }
 
 .CS-2370 {
-    background-color: #84bd5f;
-    border: 1px solid #84bd5f;
+    background-color: #a00f0f;
+    border: 1px solid #e4e6e3;
+}
+
+.CS-305G {
+    background-color: #153dc2;
+    border: 1px solid #c0c0c0;
 }
 
 .portrait {
