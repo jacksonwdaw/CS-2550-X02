@@ -1,95 +1,20 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Jackson Daw</title>
-    <style>
-        body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        img {
-            float: right; /* Float the image to the right */
-            margin: 10px; /* Add margin to create space between text and image */
-            width: 300px; /* Adjust the image size */
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        ul {
-            list-style-type: none;
-        }
-
-        li {
-            margin: 5px 0;
-        }
-
-        .poem {
-            text-align: center;
-            font-style: italic;
-        }
-
-        table {
-            width: 100%;
-            border: 1px solid black;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        td, th {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        .extra {
-            margin-top: 20px;
-        }
-
-        /* Hyperlink styling */
-        a {
-            text-decoration: none; /* Remove underline by default */
-        }
-
-        a:hover {
-            text-decoration: underline; /* Add underline on hover */
-        }
-    </style>
+    <link rel="stylesheet" href="styles/style.css"> <!-- Link to external CSS -->
 </head>
 <body>
 
 <header>
     <h1>Jackson Daw</h1>
-    <!-- Right-aligned image with text flowing around it -->
     <img src="Jackson Photo.jpg" alt="Your Photo">
 </header>
 
 <div class="container">
 
-    <!-- Personal Info Section -->
     <h2>Personal Info:</h2>
     <ul>
         <li><strong>Major:</strong> Computer Science</li>
@@ -98,7 +23,6 @@
         <li><strong>Favorite Ice Cream:</strong> Eggnog</li>
     </ul>
 
-    <!-- Five Favorite Books Section -->
     <h2>My Five Favorite Books</h2>
     <ul>
         <li><em>The Chronicles of Conan</em>, <a href="https://en.wikipedia.org/wiki/Robert_Jordan">Robert Jordan</a></li>
@@ -108,7 +32,6 @@
         <li><em>On Basilisk Station</em>, <a href="https://www.davidweber.net">David Weber</a></li>
     </ul>
 
-    <!-- Poem Section -->
     <h2>Facotrio</h2>
     <p>I dislike writing poetry, but I enjoy Facotrio:</p>
     <div class="poem">
@@ -117,31 +40,9 @@
         Always use more robots
     </div>
 
-    <!-- Brief Essay Section -->
     <h2>My Personal Interests</h2>
-    <p>
-        Reading has always been a personal hobby/addiction for as long as I can remember. 
-        Everyone in my family was avid readers so it was only a matter of time for me to take interest in books. 
-        My favorite genres have always been High Fantasy, Science Fiction, and Fantasy, and yes there is a difference between the two.
-        At some point in my reading journey I realised I had acquired well over 200 novels and didn't see any signs of stopping, I don't regret it I just wish I had more space for books.
-        I also enjoy reading comics, be it American comics, Korean Manwha, Japanese Manga, or Chinese Manhwa, I adore all types of comics and also own large amounts of comics.
-    </p>
-    <p>
-        Another Interest of mine is twofold Dungeons and Dragons and also Magic the Gathering, one is a TTRPG (Table Top Role Playing Game) and the other a deck-building card game.
-        I've played D&D for well over a decade at this point and have enjoyed every minute of it, I've played numerous rule systems like 5e, Pathfinder, Edge of the Empire and more.
-        My MTG problem started in 2020 while on my mission as I needed something to act as a placeholder for my other hobbies.
-        once I started playing MTG there was no going back, it was simply too much fun to build a deck, play with it, then lose with it, then tweak it, and repeat the process ad infinitum.
-        Now that I'm off my mission and in college I've had to slow down both hobbies quite a bit lest I go bankrupt, but I still am an avid enjoyer of both.
-    </p>
-    <p>
-        The last big hobby I have is playing video games, besides reading video games is my oldest hobby and most prolific one. 
-        I started off with the Halo series as all gamers should, and moved to so many games like the Assassin's Creed series, the Borderlands series, and more throughout the years.
-        Eventually I moved away from being a console user to being a PC user full time, since I made the switch I've never looked back and never wanted to.
-        Nowadays I play a wide variety of games but I enjoy automation games like Factorio, Action games like the Souls series, Roleplaying games like Baldur's Gate 3, and long play games like Genshin Impact or Warframe.
-        it was this hobby that got me into programming, as I really enjoyed being on my computer and learning more and more about how it and the games I played were constructed. 
-    </p>
+    <p>Reading has always been a personal hobby/addiction...</p>
 
-    <!-- Class Schedule Section -->
     <h2>Class Schedule</h2>
     <table>
         <thead>
@@ -186,40 +87,6 @@
                 <td>10:30</td>
                 <td> </td>
                 <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>11:30</td>
-                <td> </td>
-                <td rowspan="4">CS 305G</td>
-                <td> </td>
-                <td rowspan="4">CS 305G</td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>12:00</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>12:30</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>12:45</td>
                 <td> </td>
                 <td> </td>
                 <td> </td>
