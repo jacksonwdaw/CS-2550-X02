@@ -1,7 +1,7 @@
 /* Body */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+    background: linear-gradient(135deg, #9adf6c, #5782ce); 
     margin: 0;
     padding: 20px;
 }
@@ -16,7 +16,7 @@ header h1 {
     font-size: 30pt;
     color: #333;
     text-decoration: underline; /* Add underline to the name */
-    background-color: #e0e0e0; /* Optional background color for header */
+    background-color: #84bd5f; /* Optional background color for header */
     padding: 10px;
     border-radius: 10px;
 }
