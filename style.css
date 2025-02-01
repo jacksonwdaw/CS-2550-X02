@@ -1,7 +1,7 @@
 /* Body */
 body {
-    font-family: 'Segoe UI', Tahoma, Arial, sans-serif; /* Chose a readable font */
-    background-color: #f4f4f9;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
     margin: 0;
     padding: 20px;
 }
