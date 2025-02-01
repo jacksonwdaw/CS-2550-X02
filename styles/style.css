@@ -76,7 +76,7 @@ td, th {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #50cf2a;
     font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ a:hover {
 
 /* Class schedule items */
 tr td {
-    background-color: #f9f9f9;
+    background-color: #91c573;
     border: 1px solid #ddd;
 }
 
